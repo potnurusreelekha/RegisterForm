@@ -1,0 +1,69 @@
+/* Write your CSS code here */
+.Registration-form-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+  height: 100vh;
+}
+.heading {
+  font-size: 38px;
+  font-family: Roboto;
+  color: #ea580c;
+  padding-bottom: 20px;
+}
+.view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.input-label {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+.name-input-field {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #9aa5b1;
+  border-radius: 4px;
+  outline: none;
+}
+.success-image {
+  width: 70px;
+}
+.submit-button {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px;
+  background-color: #ea580c;
+  border: none;
+}
+.error-field {
+  border: 1px solid #ff0b37;
+  background-color: #faf2f2;
+}
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  font-family: roboto;
+  color: #ff0b37;
+}
